@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div>
       <Layout>
         <IntroTitle />
-        <ImageBanner imageUrl="/rocket-launch.png">
+        <ImageBanner imageUrl="/rocket.jpg" imagePosition="top">
           <Title title="Explore the Universe" />
         </ImageBanner>
         <Section>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
         </Section>
-        <ImageBanner imageUrl="/tunnel.png">
+        <ImageBanner imageUrl="/tunnel.jpg">
           <Title title="We make it possible" />
         </ImageBanner>
         <Section colored>

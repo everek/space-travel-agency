@@ -3,7 +3,8 @@ import { css } from '@emotion/react'
 
 type ImageBannerProps = {
   imageUrl: string
-  children?: React.ReactNode
+  children?: React.ReactNode,
+  imagePosition?: string
 }
 
 const innerContainer = css`
@@ -12,9 +13,12 @@ const innerContainer = css`
     padding-top: 5rem;
 `
 
-export default function ImageBanner({ imageUrl, children }: ImageBannerProps) {
+export default function ImageBanner({ imageUrl, children, imagePosition = 'center' }: ImageBannerProps) {
   const container = css`
-    background: url(${imageUrl});
+    background-image: url(${imageUrl});
+    background-size: cover;
+    background-position: ${imagePosition};
+    background-repeat: no-repeat;
     min-height: 400px;
   `
 
