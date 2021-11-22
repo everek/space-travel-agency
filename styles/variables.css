@@ -1,0 +1,17 @@
+html {
+  --primary-color: #B7152E;
+  --secondary-color: #0C0A3E;
+  
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --accent-1: var(--primary-color);
+  --accent-2: #3D39A7;
+  --accent-3: var(--secondary-color);
+  
+
+  --body-text-color: var(--white);
+  --body-background-color: var(--secondary-color);
+
+  --inner-container-width: 900px;
+}
